@@ -8,7 +8,8 @@ Java Projects
 
 Here are the Java projects included in this repository:
 
-1 -Calculator This application is a simple calculator that allows users to perform basic mathematical operations. It is written in Java and requires a Java IDE to be installed in order to run.
+1 -Calculator This application is a simple calculator that allows users to perform basic mathematical operations. It is written in Java and requires a Java IDE to be installed in order to run.![Java - Calculator](https://user-images.githubusercontent.com/116610989/232368531-68d5089f-5ec2-4724-a168-a799e6107920.png)
+
 
 2 -Mario Kart  - This application is design to represent user selecting data and it displays it on the screen.
 
