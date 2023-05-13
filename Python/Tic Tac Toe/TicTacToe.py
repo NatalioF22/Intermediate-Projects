@@ -4,7 +4,7 @@ class TicTacToe:
         self.player = "X"
         self.next_player = self.handle_player(self.player)
         self.count = 0
-        
+   
 
     def handle_player(self,player):
         if player == "X":
@@ -12,9 +12,9 @@ class TicTacToe:
         else:
             return "X"
     
-
     def Game(self):
-        board = ["_","_","_","_","_","_", "_","_","_"]
+      
+        board = ["1","2","3","4","5","6","7","8","9"]
         while True:
             
             user_input = int(input("Choose a spot: "))
@@ -28,7 +28,19 @@ class TicTacToe:
                 print(self.next_player, "'s turn")
                 self.count+=1
             formatted_board = "{} {} {}\n{} {} {}\n{} {} {}"
-            print(formatted_board.format(*board))
+            print('   |   |   ')
+            print(' ' + board[0] + ' | ' + board[1] + ' | ' + board[2] + ' ')
+            print('   |   |   ')
+            print('-----------')
+            print('   |   |   ')
+            print(' ' + board[3] + ' | ' + board[4] + ' | ' + board[5] + ' ')
+            print('   |   |   ')
+            print('-----------')
+            print('   |   |   ')
+            print(' ' + board[6] + ' | ' + board[7] + ' | ' + board[8] + ' ')
+            print('   |   |   ')
+
+            #print(formatted_board.format(*board))
             if board[0] == board[1] == board[2] == self.player:
                 print("Player",self.player, "Win" )
                 break
@@ -57,4 +69,4 @@ class TicTacToe:
             if self.count == 9:
                 print("Its a Tie")
                 break
-        
+      
