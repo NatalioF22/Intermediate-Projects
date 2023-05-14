@@ -21,6 +21,11 @@ Here is the Python project included in this repository:
 
 Tic Tac Toe This application is a classic game of Tic Tac Toe, implemented in Python. It allows users to play against the computer and features a simple graphical user interface. The application requires Python to be installed on the user's computer in order to run.
 
+The Number Converter - The number converter GUI is a simple but useful tool for converting numbers between different bases. It is easy to use and provides quick results. This project could be expanded upon by adding support for additional bases or by incorporating other features, such as error handling or more advanced conversion algorithms.
+<p align="center">
+<img width="495" alt="Screenshot 2023-05-14 at 5 42 17 PM" src="https://github.com/NatalioF22/Intermediate-Projects/assets/116610989/b9f705d5-06ef-49ad-ab4e-e3b1f89bb797">
+</p>
+
 Getting Started
 
 To get started with any of these projects, simply clone the repository to your local machine and open the project in your preferred development environment. You will need to have Java and/or Python installed on your machine, depending on which project you are working on.
